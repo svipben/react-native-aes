@@ -1,4 +1,4 @@
-package com.tectiv3.aes;
+package com.trackforce.aes;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -10,7 +10,7 @@ import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
 
-import com.tectiv3.aes.RCTAes;
+import com.trackforce.aes.RCTAes;
 
 public class RCTAesPackage implements ReactPackage {
     @Override

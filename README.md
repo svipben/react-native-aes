@@ -4,11 +4,11 @@ AES encryption/decryption for react-native
 
 ## Installation
 ```sh
-npm install react-native-aes-crypto
+npm install @trackforce/react-native-aes-crypto
 ```
 or
 ```sh
-yarn add react-native-aes-crypto
+yarn add @trackforce/react-native-aes-crypto
 ```
 ### Linking Automatically
 ```sh
@@ -23,11 +23,11 @@ OR
 * Click on your main project file (the one that represents the .xcodeproj) select Build Phases and drag libRCTAes.a from the Products folder inside the RCTAes.xcodeproj.
 
 #### (Android)
-##### Untested!
+
 ```gradle
 ...
-include ':react-native-aes'
-project(':react-native-aes').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-aes/android/RCTAes')
+include ':@trackforce/react-native-aes-crypto'
+project(':@trackforce/react-native-aes-crypto').projectDir = new File(rootProject.projectDir, '../node_modules/@trackforce/react-native-aes-crypto/android')
 ```
 
 * In `android/app/build.gradle`
@@ -36,7 +36,7 @@ project(':react-native-aes').projectDir = new File(rootProject.projectDir, '../n
 ...
 dependencies {
     ...
-    compile project(':react-native-aes')
+    compile project(':@trackforce/react-native-aes-crypto')
 }
 ```
 
@@ -44,7 +44,7 @@ dependencies {
 
 ```java
 ......
-import com.tectiv3.aes.RCTAesPackage;
+import com.trackforce.aes.RCTAesPackage;
 
 ......
 
@@ -61,7 +61,7 @@ protected List<ReactPackage> getPackages() {
 ### Example
 
 ```js
-import AES from 'react-native-aes-crypto';
+import AES from '@trackforce/react-native-aes-crypto';
 
 function generateKey(password, salt) {
     return AES.pbkdf2(password, salt);

@@ -1,10 +1,10 @@
 {
-    "name": "react-native-aes-crypto",
+    "name": "@trackforce/react-native-aes-crypto",
     "version": "1.2.2",
     "description": "AES crypto native module for react-native",
     "main": "index.js",
     "author": "tectiv3",
-    "license": "GPL-3.0",
+    "license": "MIT",
     "keywords": [
         "react-native",
         "react-component",
@@ -20,13 +20,13 @@
         "pbkdf2",
         "hmac256"
     ],
-    "homepage": "https://github.com/tectiv3/react-native-aes",
+    "homepage": "https://github.com/trackforce/react-native-aes",
     "bugs": {
-        "url": "https://github.com/tectiv3/react-native-aes/issues"
+        "url": "https://github.com/trackforce/react-native-aes/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/tectiv3/react-native-aes.git"
+        "url": "git://github.com/trackforce/react-native-aes.git"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"

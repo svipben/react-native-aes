@@ -1,8 +1,9 @@
 {
     "name": "@trackforce/react-native-aes-crypto",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "description": "AES crypto native module for react-native",
     "main": "index.js",
+    "types": "./typings/react-native-aes.d.ts",
     "author": "tectiv3",
     "license": "MIT",
     "keywords": [

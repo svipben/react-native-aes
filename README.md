@@ -2,6 +2,10 @@
 
 AES encryption/decryption for react-native
 
+# DEPRECATED
+
+Use https://github.com/trackforce/react-native-crypto
+
 ## Installation
 ```sh
 npm install @trackforce/react-native-aes-crypto
